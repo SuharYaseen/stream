@@ -5,7 +5,7 @@ def main():
 
     # Displaying a locally stored image
     st.header("Local Image")
-    local_image_path = "https://github.com/SuharYaseen/stream/blob/main/IMG_20230403_134230.jpg"  # Replace with the path to your local image
+    local_image_path = "IMG_20230403_134230.jpg"  # Replace with the path to your local image
     st.image(local_image_path, caption="Example Image", use_column_width=True)
 
     # Displaying an image from URL
